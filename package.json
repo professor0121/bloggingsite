@@ -5,7 +5,9 @@
   "description": "this is a blogging site having a feature to handle the blog creattion",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,14 @@
   },
   "homepage": "https://github.com/professor0121/bloggingsite#readme",
   "dependencies": {
+    "@prisma/client": "^7.4.2",
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.3.1",
+    "ejs": "^5.0.1",
     "express": "^5.2.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
     "prisma": "^7.4.2"
   }
 }
