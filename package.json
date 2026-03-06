@@ -1,0 +1,26 @@
+{
+  "name": "bloggingsite",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is a blogging site having a feature to handle the blog creattion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/professor0121/bloggingsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/professor0121/bloggingsite/issues"
+  },
+  "homepage": "https://github.com/professor0121/bloggingsite#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "prisma": "^7.4.2"
+  }
+}
